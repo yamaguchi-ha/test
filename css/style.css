@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+.content-title {
+  background-color: cadetblue;
+  color: #fff;
+  padding: 5px;
+  margin: 30px 0 10px;
+}
+
+/* ログイン画 */
+#loginContents {
+  margin: 0 auto;
+  background-color: #4682b4;
+  padding: 200px 0 300px;
+}
+#loginForm {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+#title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+#loginBtn {
+  width: 100%;
+  background-color: #3cb371;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 4px;
+}
+.inpt {
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 14px;
+  padding: 4px;
+}
+
+/* 一覧画面 */
+
+#listContents {
+  max-width: 1000px;
+  margin: 200px auto;
+}
+
+#listContents table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#listContents th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+#listContents th {
+  background-color: #f2f2f2;
+}
+
+/* 一覧画面課題 */
+#taskContents {
+  max-width: 500px;
+  margin: 100px auto 0;
+}
+#styleTask {
+  margin-bottom: 20px;
+}
+#zokuseiTask {
+  margin-top: 20px;
+}
+.backColor {
+  color: red;
+}
+#getBtn3,
+#getBtn4,
+#getBtn5,
+#getBtn6,
+#getBtn7 {
+  margin-bottom: 20px;
+}
+
+#errorMessage {
+  color: red;
+}
+
+#box {
+  position: relative;
+  margin: 10px;
+  width: 500px;
+  height: 200px;
+  overflow-y: auto;
+}
+#inner {
+  height: 5200px;
+  position: absolute;
+  width: 100%;
+  background-color: #69688c;
+}
+#inner p {
+  position: sticky;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 5px;
+}
