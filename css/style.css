@@ -6,6 +6,9 @@
   padding: 5px;
   margin: 30px 0 10px;
 }
+button:hover {
+  opacity: 0.8;
+}
 
 /* ログイン画 */
 #loginContents {
@@ -35,10 +38,24 @@
   padding: 4px;
 }
 .inpt {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   width: 100%;
   font-size: 14px;
-  padding: 4px;
+  padding: 5px;
+}
+input:focus {
+  outline: #4682b4 2px solid;
+}
+#idCheckText,
+#passwordCheckText {
+  text-align: left;
+  color: red;
+  margin-bottom: 7px;
+  font-size: 12px;
+}
+
+.errorFrame {
+  border: solid 2px red;
 }
 
 /* 一覧画面 */
